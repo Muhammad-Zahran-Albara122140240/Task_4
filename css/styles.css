@@ -1,0 +1,91 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ebebf2;
+    margin: 20px;
+    background-image: url(bruno.jpg);
+}
+form {
+    background-color: rgba(40, 40, 133, 0.6); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 600px; 
+}
+form label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #01053f; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+form, table {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(40, 40, 133, 0.6);
+}
+button {
+    color: #ddd;
+    background-color: #131960;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.radio-group label {
+    font-size: 16px;
+    color: #ebebf2;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-left: 5px; 
+}
+
+.radio-group label:hover {
+    color: #007BFF;
+}
+h1 {
+    text-align: center;
+    color :ebebf2;
+}
+h2 {
+    text-align: center;
+    color :ebebf2;
+}
+footer {
+    position: absolute;
+    bottom : 0;
+}
